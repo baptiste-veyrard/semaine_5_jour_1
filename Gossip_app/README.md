@@ -1,24 +1,17 @@
 # README
+Hello correcteur !
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Tu trouveras ici une petite app pour les futurs gossips de THP !
 
-Things you may want to cover:
+Comment tester l'application?
 
-* Ruby version
+- Télécharger (ou cloner) le dossier
+- Entrer dans le fichier et faire un Bundle Install
+- Faire un petit rails db:create
+- Suivit d'un petit rails db:seed
+- Il est maintenant temps de lancer le serveur avec un petit: rails server
+- Tu peux maintenant te rendre sur ton navigateur et entrer l'URL suivante : http://localhost:3000/
 
-* System dependencies
+Te voilà dans l'application, libre à toi de te balader où tu le souhaites !
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Bonne correction
