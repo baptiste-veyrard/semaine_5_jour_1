@@ -24,7 +24,7 @@
 			<div class="card" style="width: 18rem; height: auto;">
 				<img class="card-img-top" src="/Gossip.jpg" alt="Card image cap">
 				<div class="card-body">
-					<h5 class="card-title">Gossip n°<%= gossip.id%> : <%=gossip.title%></h5>
+					<h5 class="card-title"><span style="color: red">Gossip n°<%= gossip.id%></span> : <%=gossip.title%></h5>
 					<p class="card-text">Author : <%=gossip.user.first_name%><br/>
 						Description : <%=gossip.content%></p>
 						<a href="gossip/<%= gossip.id%>" class="btn btn-primary">Know more</a>
