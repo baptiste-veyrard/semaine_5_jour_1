@@ -1,0 +1,7 @@
+<h1>Potin numéro <%= @gossip.id %></h1>
+
+<h2>Title : <%= @gossip.title %></h2>
+<h2><a href="../user/<%=@gossip.user.id%>">Author : <%= @gossip.user.first_name%></a></h2>
+<br/>
+<h3><em><%=@gossip.content%></em></h3>
+<h3>Created at :<%=@gossip.created_at%></em></h3>
